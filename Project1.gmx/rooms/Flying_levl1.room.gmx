@@ -7,7 +7,7 @@
   <hsnap>32</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <colour>0</colour>
   <showcolour>-1</showcolour>
   <code></code>
@@ -155,6 +155,7 @@
     <instance objName="obj_controller_islands" x="608" y="480" name="inst_F6A9ED69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_missile_plane" x="448" y="384" name="inst_55643909" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_missile_plane_spawn" x="576" y="224" name="inst_6C5CB966" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pause" x="640" y="32" name="inst_5603BDFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
