@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- ScpControl Configuration Data. 2014-09-21 22:03:51 -->
+
+<ScpControl>
+  <Controller1>
+    <Red>0</Red>
+    <Green>255</Green>
+    <Blue>0</Blue>
+    <RumbleBoost>200</RumbleBoost>
+    <ledAsBatteryIndicator>True</ledAsBatteryIndicator>
+    <lowBatteryFlash>True</lowBatteryFlash>
+    <touchSensitivity>66</touchSensitivity>
+    <touchEnabled>False</touchEnabled>
+  </Controller1>
+  <Controller2>
+    <Red>255</Red>
+    <Green>0</Green>
+    <Blue>0</Blue>
+    <RumbleBoost>100</RumbleBoost>
+    <ledAsBatteryIndicator>False</ledAsBatteryIndicator>
+    <lowBatteryFlash>False</lowBatteryFlash>
+    <touchSensitivity>100</touchSensitivity>
+    <touchEnabled>False</touchEnabled>
+  </Controller2>
+  <Controller3>
+    <Red>0</Red>
+    <Green>255</Green>
+    <Blue>0</Blue>
+    <RumbleBoost>100</RumbleBoost>
+    <ledAsBatteryIndicator>False</ledAsBatteryIndicator>
+    <lowBatteryFlash>False</lowBatteryFlash>
+    <touchSensitivity>100</touchSensitivity>
+    <touchEnabled>False</touchEnabled>
+  </Controller3>
+  <Controller4>
+    <Red>255</Red>
+    <Green>0</Green>
+    <Blue>255</Blue>
+    <RumbleBoost>100</RumbleBoost>
+    <ledAsBatteryIndicator>False</ledAsBatteryIndicator>
+    <lowBatteryFlash>False</lowBatteryFlash>
+    <touchSensitivity>100</touchSensitivity>
+    <touchEnabled>False</touchEnabled>
+  </Controller4>
+</ScpControl>
