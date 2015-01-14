@@ -73,7 +73,7 @@
           </argument>
           <argument>
             <kind>5</kind>
-            <sprite>sprite11_heart_8_bit_3346285</sprite>
+            <sprite>spr_heart</sprite>
           </argument>
         </arguments>
       </action>
