@@ -42,6 +42,12 @@
       <object>objects\obj_controller_bad_guy</object>
       <object>objects\obj_bad_guy</object>
     </objects>
+    <objects name="Menu_stuff">
+      <object>objects\obj_restart</object>
+      <object>objects\obj_pause</object>
+      <object>objects\obj_quit</object>
+      <object>objects\obj_fullscreen_button</object>
+    </objects>
     <object>objects\obj_bullet</object>
     <object>objects\Obj_draw_lives</object>
     <object>objects\obj_invis_wall</object>
@@ -50,10 +56,6 @@
     <object>objects\obj_island</object>
     <object>objects\obj_volcano</object>
     <object>objects\obj_controller_islands</object>
-    <object>objects\obj_fullscreen_button</object>
-    <object>objects\obj_quit</object>
-    <object>objects\obj_pause</object>
-    <object>objects\obj_restart</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title_screen</room>
