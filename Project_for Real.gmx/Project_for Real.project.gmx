@@ -313,6 +313,7 @@
     <object>objects\obj_false_enemy</object>
     <objects name="Commands">
       <object>objects\obj_text_coin</object>
+      <object>objects\obj_non_lvl_txt</object>
       <object>objects\obj_room_cmd</object>
       <object>objects\obj_health_cmd</object>
       <object>objects\obj_over_txt</object>
@@ -332,11 +333,11 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
-    <room>rooms\rm_lvl01</room>
     <rooms name="Levels">
+      <room>rooms\rm_test</room>
+      <room>rooms\rm_lvl01</room>
       <room>rooms\rm_lvl1_1</room>
     </rooms>
-    <room>rooms\rm_test</room>
     <rooms name="Menu">
       <room>rooms\rm_gameover</room>
       <room>rooms\rm_settings</room>
