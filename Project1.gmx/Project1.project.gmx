@@ -22,6 +22,7 @@
     <sprite>sprites\spr_missile_enemy</sprite>
     <sprite>sprites\spr_missile</sprite>
     <sprite>sprites\sprite_restart</sprite>
+    <sprite>sprites\sprite14</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background3</background>
