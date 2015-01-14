@@ -101,7 +101,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>lock</string>
+            <string>key</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -109,7 +109,7 @@
           </argument>
           <argument>
             <kind>4</kind>
-            <string>0</string>
+            <string>4</string>
           </argument>
         </arguments>
       </action>
@@ -168,6 +168,30 @@
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>key</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>-1</string>
+          </argument>
+        </arguments>
       </action>
       <action>
         <libid>1</libid>
@@ -255,6 +279,30 @@
       </action>
       <action>
         <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>key</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>-1</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>203</id>
         <kind>0</kind>
         <userelative>0</userelative>
@@ -295,19 +343,35 @@
         <relative>0</relative>
         <isnot>0</isnot>
       </action>
+    </event>
+    <event eventtype="8" enumb="64">
       <action>
         <libid>1</libid>
-        <id>421</id>
-        <kind>3</kind>
-        <userelative>0</userelative>
+        <id>613</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>0</exetype>
-        <functionname></functionname>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_draw_variable</functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>obj_door</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>key</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>64</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>96</string>
+          </argument>
+        </arguments>
       </action>
     </event>
   </events>

@@ -316,6 +316,7 @@
       <object>objects\obj_non_lvl_txt</object>
       <object>objects\obj_room_cmd</object>
       <object>objects\obj_health_cmd</object>
+      <object>objects\obj_draw_key</object>
       <object>objects\obj_over_txt</object>
     </objects>
     <objects name="Buttons">
