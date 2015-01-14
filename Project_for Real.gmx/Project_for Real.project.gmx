@@ -274,6 +274,12 @@
       <sprite>sprites\spr_next</sprite>
     </sprites>
     <sprites name="Player sprites">
+      <sprites name="Attack">
+        <sprite>sprites\spr_attack_left</sprite>
+        <sprite>sprites\spr_attack_right_</sprite>
+        <sprite>sprites\spr_attack_down</sprite>
+        <sprite>sprites\spr_attack_up</sprite>
+      </sprites>
       <sprite>sprites\spr_player</sprite>
     </sprites>
     <sprites name="Enemy sprites">
@@ -301,15 +307,18 @@
   <paths name="paths">
     <path>paths\Scenery</path>
   </paths>
+  <scripts name="scripts">
+    <script>scripts\scr_ai.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
+    <object>objects\obj_backup_player</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_enemy2</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_coin</object>
     <object>objects\obj_door</object>
     <object>objects\obj_next</object>
-    <object>objects\obj_false_player</object>
     <object>objects\obj_false_enemy</object>
     <objects name="Commands">
       <object>objects\obj_text_coin</object>
