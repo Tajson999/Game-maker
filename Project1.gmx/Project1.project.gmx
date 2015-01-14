@@ -22,7 +22,8 @@
     <sprite>sprites\spr_missile_enemy</sprite>
     <sprite>sprites\spr_missile</sprite>
     <sprite>sprites\sprite_restart</sprite>
-    <sprite>sprites\sprite14</sprite>
+    <sprite>sprites\spr_boom</sprite>
+    <sprite>sprites\sprite16test</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background3</background>
@@ -57,6 +58,7 @@
     <object>objects\obj_island</object>
     <object>objects\obj_volcano</object>
     <object>objects\obj_controller_islands</object>
+    <object>objects\obj_boom</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Title_screen</room>
