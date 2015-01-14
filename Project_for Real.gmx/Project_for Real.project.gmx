@@ -276,7 +276,7 @@
     <sprites name="Player sprites">
       <sprites name="Attack">
         <sprite>sprites\spr_attack_left</sprite>
-        <sprite>sprites\spr_attack_right_</sprite>
+        <sprite>sprites\spr_player_attack</sprite>
         <sprite>sprites\spr_attack_down</sprite>
         <sprite>sprites\spr_attack_up</sprite>
       </sprites>
