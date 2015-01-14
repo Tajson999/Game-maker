@@ -48,8 +48,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_previous == 0
-if(keyboard_check_pressed(vk_escape)) {
+            <string>if(keyboard_check_pressed(vk_escape)) {
 
     if(paused == true) {
         paused = false;
