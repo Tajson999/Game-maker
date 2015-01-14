@@ -288,10 +288,15 @@
     </sprites>
     <sprite>sprites\spr_pressure</sprite>
     <sprite>sprites\spr_key</sprite>
+    <sprite>sprites\spr_settings</sprite>
+    <sprite>sprites\spr_no_check</sprite>
+    <sprite>sprites\spr_yes_check</sprite>
+    <sprite>sprites\spr_back</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tile_title</background>
     <background>background\tile_made</background>
+    <background>background\tile_fullscreen</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\Scenery</path>
@@ -308,6 +313,7 @@
     <object>objects\obj_false_enemy</object>
     <objects name="Commands">
       <object>objects\obj_text_coin</object>
+      <object>objects\obj_non_lvl_txt</object>
       <object>objects\obj_room_cmd</object>
       <object>objects\obj_health_cmd</object>
       <object>objects\obj_over_txt</object>
@@ -320,13 +326,22 @@
     <object>objects\obj_pressure</object>
     <object>objects\obj_timer</object>
     <object>objects\obj_key</object>
+    <object>objects\obj_settings</object>
+    <object>objects\obj_no_fullscreen</object>
+    <object>objects\obj_yes_fullscreen</object>
+    <object>objects\obj_back</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
-    <room>rooms\rm_lvl01</room>
-    <room>rooms\rm_lvl1_1</room>
-    <room>rooms\rm_gameover</room>
-    <room>rooms\rm_test</room>
+    <rooms name="Levels">
+      <room>rooms\rm_test</room>
+      <room>rooms\rm_lvl01</room>
+      <room>rooms\rm_lvl1_1</room>
+    </rooms>
+    <rooms name="Menu">
+      <room>rooms\rm_gameover</room>
+      <room>rooms\rm_settings</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
