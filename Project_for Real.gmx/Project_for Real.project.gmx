@@ -270,7 +270,6 @@
       <sprite>sprites\spr_coin</sprite>
       <sprite>sprites\spr_wall</sprite>
       <sprite>sprites\Spr_Door</sprite>
-      <sprite>sprites\spr_pressurepad</sprite>
       <sprite>sprites\spr_heart</sprite>
       <sprite>sprites\spr_next</sprite>
     </sprites>
@@ -287,6 +286,7 @@
       <sprite>sprites\spr_over_txt</sprite>
       <sprite>sprites\spr_Play</sprite>
     </sprites>
+    <sprite>sprites\spr_pressure</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tile_title</background>
@@ -316,7 +316,7 @@
       <object>objects\obj_exit</object>
       <object>objects\obj_Play</object>
     </objects>
-    <object>objects\obj_pressuerpad</object>
+    <object>objects\obj_pressure</object>
     <object>objects\obj_timer</object>
   </objects>
   <rooms name="rooms">
