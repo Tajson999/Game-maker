@@ -269,7 +269,7 @@
     <sprites name="Misc">
       <sprite>sprites\spr_coin</sprite>
       <sprite>sprites\spr_wall</sprite>
-      <sprite>sprites\Spr_Door</sprite>
+      <sprite>sprites\spr_Door</sprite>
       <sprite>sprites\spr_heart</sprite>
       <sprite>sprites\spr_next</sprite>
     </sprites>
@@ -303,12 +303,14 @@
     <background>background\tile_title</background>
     <background>background\tile_made</background>
     <background>background\tile_fullscreen</background>
+    <background>background\tile_entrence</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\Scenery</path>
   </paths>
   <scripts name="scripts">
     <script>scripts\scr_ai.gml</script>
+    <script>scripts\scr_find_depth.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
@@ -318,6 +320,7 @@
     <object>objects\obj_wall</object>
     <object>objects\obj_coin</object>
     <object>objects\obj_door</object>
+    <object>objects\obj_starter_door</object>
     <object>objects\obj_next</object>
     <object>objects\obj_false_enemy</object>
     <objects name="Commands">
