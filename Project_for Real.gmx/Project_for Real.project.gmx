@@ -343,6 +343,7 @@
     <object>objects\obj_no_fullscreen</object>
     <object>objects\obj_yes_fullscreen</object>
     <object>objects\obj_back</object>
+    <object>objects\obj_sword</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>
