@@ -270,6 +270,7 @@
       <sprite>sprites\spr_coin</sprite>
       <sprite>sprites\spr_wall</sprite>
       <sprite>sprites\spr_Door</sprite>
+      <sprite>sprites\spr_pressure_door</sprite>
       <sprite>sprites\spr_heart</sprite>
       <sprite>sprites\spr_next</sprite>
     </sprites>
@@ -339,6 +340,7 @@
     <object>objects\obj_yes_fullscreen</object>
     <object>objects\obj_back</object>
     <object>objects\obj_sword</object>
+    <object>objects\obj_pressure_door</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
