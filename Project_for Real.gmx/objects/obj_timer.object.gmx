@@ -51,7 +51,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_door</object>
+            <object>obj_pressure_door</object>
           </argument>
           <argument>
             <kind>4</kind>

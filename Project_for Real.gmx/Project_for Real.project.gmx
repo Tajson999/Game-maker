@@ -300,6 +300,7 @@
     <background>background\tile_made</background>
     <background>background\tile_fullscreen</background>
     <background>background\tile_entrence</background>
+    <background>background\tile_void</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\Scenery</path>
