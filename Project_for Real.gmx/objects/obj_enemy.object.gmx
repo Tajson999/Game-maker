@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>health = 10
+            <string>globalvar health
+ health = 20
 </string>
           </argument>
         </arguments>
@@ -128,7 +129,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if place_meeting((obj_player.x), (obj_player.y), obj_enemy2)
+            <string>///Health
+if place_meeting((obj_player.x), (obj_player.y), obj_enemy)
     {
     health -= 10;
     if health &lt;= 0 instance_destroy();
