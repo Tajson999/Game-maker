@@ -159,7 +159,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>{
+            <string>if (Attacking = true){
+    
+} 
+
+{
     move_bounce_all(true);
     if(speed &gt;2) speed = speed/2;
 }
