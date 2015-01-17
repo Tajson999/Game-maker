@@ -208,9 +208,10 @@ if (Health &lt;= 0) {
           <argument>
             <kind>1</kind>
             <string>///health
-if (Attacking = true) {
+if (global.Attacking = true) {
 Health -= 50
-}else{}
+}
+
 </string>
           </argument>
         </arguments>

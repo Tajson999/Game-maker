@@ -89,7 +89,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>Attacking = false
+            <string>globalvar Attacking 
+global.Attacking = false
 AttackRate = 8
 
 </string>
@@ -202,14 +203,14 @@ if (Attacking = false)
           <argument>
             <kind>1</kind>
             <string>///Attacking
-if (Attacking = false)
+if (global.Attacking = false)
     {
         if (keyboard_check_pressed(vk_space))
             {  
             sprite_index = spr_attacking
             image_speed = 0.1
             image_index = 0
-            Attacking = true 
+            global.Attacking = true 
     }
 }
 </string>
@@ -436,7 +437,7 @@ if (Attacking = false)
             <kind>1</kind>
             <string>if (sprite_index = spr_attacking) {
     sprite_index = spr_player
-    Attacking = false
+    global.Attacking = false
 }
 </string>
           </argument>

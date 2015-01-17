@@ -336,13 +336,13 @@
     </objects>
     <object>objects\obj_pressure</object>
     <object>objects\obj_timer</object>
+    <object>objects\obj_pressure_door</object>
     <object>objects\obj_key</object>
     <object>objects\obj_settings</object>
     <object>objects\obj_no_fullscreen</object>
     <object>objects\obj_yes_fullscreen</object>
     <object>objects\obj_back</object>
     <object>objects\obj_sword</object>
-    <object>objects\obj_pressure_door</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
