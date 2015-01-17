@@ -129,9 +129,10 @@
           <argument>
             <kind>1</kind>
             <string>///Health
-if Health &lt;= 0 {
+if (Health &lt;= 0) {
     instance_destroy()
 }
+
 </string>
           </argument>
         </arguments>
@@ -207,8 +208,9 @@ if Health &lt;= 0 {
           <argument>
             <kind>1</kind>
             <string>///health
+if (Attacking = true) {
 Health -= 50
-
+}else{}
 </string>
           </argument>
         </arguments>
