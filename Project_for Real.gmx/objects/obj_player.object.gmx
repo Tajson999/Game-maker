@@ -90,6 +90,7 @@
           <argument>
             <kind>1</kind>
             <string>Attacking = false
+AttackRate = 8
 
 </string>
           </argument>
