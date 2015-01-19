@@ -205,12 +205,32 @@ if (Attacking = false)
             <string>///Attacking
 if (global.Attacking = false)
     {
-        if (keyboard_check_pressed(vk_space))
-            {  
-            sprite_index = spr_attacking
+        if (keyboard_check_pressed(vk_space)) {
+            if (Direction = "Down") {
+///down
+            sprite_index = spr_player_attacking_down
             image_speed = 0.1
             image_index = 0
             global.Attacking = true 
+            }else if (Direction = "up") {
+///up
+            sprite_index = spr_player_attacking_up
+            image_speed = 0.1
+            image_index = 0
+            global.Attacking = true 
+            }else if (Direction = "Left") {
+///left
+            sprite_index = spr_player_attacking_left
+            image_speed = 0.1
+            image_index = 0
+            global.Attacking = true 
+            }else if (Direction = "Right") {
+///right
+            sprite_index = spr_player_attacking_right
+            image_speed = 0.1
+            image_index = 0
+            global.Attacking = true 
+            }
     }
 }
 </string>
@@ -435,7 +455,7 @@ if (global.Attacking = false)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (sprite_index = spr_attacking) {
+            <string>if (sprite_index = spr_player_attacking_up or sprite_index = spr_player_attacking_left or sprite_index = spr_player_attacking_right or sprite_index = spr_player_attacking_down) {
     sprite_index = spr_player
     global.Attacking = false
 }
