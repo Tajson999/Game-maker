@@ -269,6 +269,7 @@
     <sprites name="Misc">
       <sprite>sprites\spr_coin</sprite>
       <sprite>sprites\spr_wall</sprite>
+      <sprite>sprites\spr_fake_wall</sprite>
       <sprite>sprites\spr_Door</sprite>
       <sprite>sprites\spr_pressure_door</sprite>
       <sprite>sprites\spr_heart</sprite>
@@ -300,6 +301,9 @@
     <sprite>sprites\spr_no_check</sprite>
     <sprite>sprites\spr_yes_check</sprite>
     <sprite>sprites\spr_back</sprite>
+    <sprite>sprites\spr_bomb</sprite>
+    <sprite>sprites\spr_bomb_pickup</sprite>
+    <sprite>sprites\spr_boom</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tile_title</background>
@@ -331,8 +335,9 @@
       <object>objects\obj_non_lvl_txt</object>
       <object>objects\obj_room_cmd</object>
       <object>objects\obj_health_cmd</object>
-      <object>objects\obj_draw_key</object>
       <object>objects\obj_over_txt</object>
+      <object>objects\obj_draw_bombs</object>
+      <object>objects\obj_draw_keys</object>
     </objects>
     <objects name="Buttons">
       <object>objects\obj_GAMEOVER</object>
@@ -343,17 +348,20 @@
     <object>objects\obj_timer</object>
     <object>objects\obj_pressure_door</object>
     <object>objects\obj_key</object>
+    <object>objects\obj_bomb_pick_up</object>
     <object>objects\obj_settings</object>
     <object>objects\obj_no_fullscreen</object>
     <object>objects\obj_yes_fullscreen</object>
     <object>objects\obj_back</object>
-    <object>objects\obj_sword</object>
+    <object>objects\obj_bomb</object>
+    <object>objects\obj_fake_wall</object>
+    <object>objects\obj_bomb_boom</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
     <rooms name="Levels">
-      <room>rooms\rm_lvl01</room>
       <room>rooms\rm_lvl1_1</room>
+      <room>rooms\rm_lvl01</room>
       <room>rooms\rm_test</room>
     </rooms>
     <rooms name="Menu">
