@@ -282,13 +282,13 @@
       <sprite>sprites\spr_player_run</sprite>
       <sprites name="spr_attacking">
         <sprite>sprites\spr_player_attacking_up</sprite>
-        <sprite>sprites\spr_player_attacking_left</sprite>
-        <sprite>sprites\spr_player_attacking_right</sprite>
         <sprite>sprites\spr_player_attacking_down</sprite>
-        <sprite>sprites\spr_attackbox_left</sprite>
-        <sprite>sprites\spr_attackbox_right</sprite>
+        <sprite>sprites\spr_player_attacking_right</sprite>
+        <sprite>sprites\spr_player_attacking_left</sprite>
         <sprite>sprites\spr_attackbox_up</sprite>
         <sprite>sprites\spr_attackbox_down</sprite>
+        <sprite>sprites\spr_attackbox_left</sprite>
+        <sprite>sprites\spr_attackbox_right</sprite>
       </sprites>
     </sprites>
     <sprites name="Enemy sprites">
@@ -310,6 +310,8 @@
     <sprite>sprites\spr_bomb</sprite>
     <sprite>sprites\spr_bomb_pickup</sprite>
     <sprite>sprites\spr_boom</sprite>
+    <sprite>sprites\spr_spear</sprite>
+    <sprite>sprites\spr_spear_throw</sprite>
     <sprite>sprites\spr_shadow</sprite>
   </sprites>
   <backgrounds name="background">
@@ -369,6 +371,8 @@
     <object>objects\obj_attackbox_down</object>
     <object>objects\obj_attackbox_up</object>
     <object>objects\obj_shadow</object>
+    <object>objects\obj_spear_on_the_ground</object>
+    <object>objects\obj_spear_thrown</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
