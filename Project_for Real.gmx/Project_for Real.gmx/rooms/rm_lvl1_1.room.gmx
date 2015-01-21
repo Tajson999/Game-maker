@@ -342,6 +342,10 @@
     <instance objName="obj_draw_bombs" x="32" y="72" name="inst_1D81AD97" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_draw_keys" x="0" y="48" name="inst_03EE383E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_shadow" x="1200" y="624" name="inst_9DC40C35" locked="0" code="" scaleX="12" scaleY="9" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spear_on_the_ground" x="256" y="512" name="inst_A65950AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spear_on_the_ground" x="320" y="512" name="inst_F2281188" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spear_on_the_ground" x="752" y="496" name="inst_171E555B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spear_on_the_ground" x="704" y="512" name="inst_C5D499D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tile_entrence" x="496" y="744" w="16" h="48" xo="16" yo="0" id="10000006" name="inst_93E0C72A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
