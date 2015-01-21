@@ -138,7 +138,7 @@ if (Health &lt;= 0) {
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_attackbox_down">
+    <event eventtype="4" ename="obj_attackbox_up">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -190,7 +190,7 @@ Health -= 50
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_attackbox_up">
+    <event eventtype="4" ename="obj_attackbox_down">
       <action>
         <libid>1</libid>
         <id>603</id>

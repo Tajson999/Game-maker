@@ -308,6 +308,7 @@
     <sprite>sprites\spr_bomb</sprite>
     <sprite>sprites\spr_bomb_pickup</sprite>
     <sprite>sprites\spr_boom</sprite>
+    <sprite>sprites\spr_shadow</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tile_title</background>
@@ -365,6 +366,7 @@
     <object>objects\obj_attackbox_left</object>
     <object>objects\obj_attackbox_down</object>
     <object>objects\obj_attackbox_up</object>
+    <object>objects\obj_shadow</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
