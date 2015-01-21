@@ -330,33 +330,38 @@ if (Attacking = false)
 if (global.Attacking = false)
     {
         if (keyboard_check_pressed(vk_space)) {
+///down            
             if (Direction = "Down") {
-///down
             sprite_index = spr_player_attacking_down
             image_speed = 0.1
             image_index = 0
-            global.Attacking = true 
-            }else if (Direction = "up") {
+            instance_create(obj_player.x,obj_player.y,obj_attackbox_down)
+            global.Attacking = true
 ///up
+            }else if (Direction = "up") {
             sprite_index = spr_player_attacking_up
             image_speed = 0.1
             image_index = 0
+            instance_create(obj_player.x,obj_player.y,obj_attackbox_up)
             global.Attacking = true 
+///left    
             }else if (Direction = "Left") {
-///left
             sprite_index = spr_player_attacking_left
             image_speed = 0.1
             image_index = 0
+            instance_create(obj_player.x,obj_player.y,obj_attackbox_left)
             global.Attacking = true 
+///right            
             }else if (Direction = "Right") {
-///right
             sprite_index = spr_player_attacking_right
             image_speed = 0.1
             image_index = 0
+            instance_create(obj_player.x,obj_player.y,obj_attackbox_right)
             global.Attacking = true 
             }
     }
 }
+
 </string>
           </argument>
         </arguments>
@@ -823,6 +828,22 @@ if (global.Attacking = false)
             <kind>1</kind>
             <string>if (sprite_index = spr_player_attacking_up or sprite_index = spr_player_attacking_left or sprite_index = spr_player_attacking_right or sprite_index = spr_player_attacking_down) {
     sprite_index = spr_player
+///right
+    if (Direction = "Right") {
+    with (obj_attackbox_right) {
+    instance_destroy()}
+///left
+    }else if (Direction = "Left") {
+    with (obj_attackbox_left){
+    instance_destroy()}
+///up
+    }else if (Direction = "Up") {
+    with (obj_attackbox_up){
+    instance_destroy()}
+///down
+    }else if (Direction = "Down") {
+    with (obj_attackbox_down) {
+    instance_destroy()}}
     global.Attacking = false
 }
 </string>

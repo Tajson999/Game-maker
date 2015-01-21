@@ -283,6 +283,10 @@
         <sprite>sprites\spr_player_attacking_left</sprite>
         <sprite>sprites\spr_player_attacking_right</sprite>
         <sprite>sprites\spr_player_attacking_down</sprite>
+        <sprite>sprites\spr_attackbox_left</sprite>
+        <sprite>sprites\spr_attackbox_right</sprite>
+        <sprite>sprites\spr_attackbox_up</sprite>
+        <sprite>sprites\spr_attackbox_down</sprite>
       </sprites>
     </sprites>
     <sprites name="Enemy sprites">
@@ -357,6 +361,10 @@
     <object>objects\obj_fake_wall</object>
     <object>objects\obj_bomb_boom</object>
     <object>objects\object32</object>
+    <object>objects\obj_attackbox_right</object>
+    <object>objects\obj_attackbox_left</object>
+    <object>objects\obj_attackbox_down</object>
+    <object>objects\obj_attackbox_up</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
