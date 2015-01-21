@@ -307,6 +307,8 @@
     <sprite>sprites\spr_yes_check</sprite>
     <sprite>sprites\spr_back</sprite>
     <sprite>sprites\spr_bomb</sprite>
+    <sprite>sprites\spr_spear</sprite>
+    <sprite>sprites\spr_spear_throw</sprite>
     <sprite>sprites\spr_bomb_pickup</sprite>
     <sprite>sprites\spr_boom</sprite>
     <sprite>sprites\spr_shadow</sprite>
@@ -367,14 +369,16 @@
     <object>objects\obj_attackbox_left</object>
     <object>objects\obj_attackbox_down</object>
     <object>objects\obj_attackbox_up</object>
+    <object>objects\obj_spear_thrown</object>
     <object>objects\obj_shadow</object>
+    <object>objects\obj_spear_on_the_ground</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_test</room>
     <room>rooms\rm_main</room>
     <rooms name="Levels">
       <room>rooms\rm_lvl1_1</room>
       <room>rooms\rm_lvl01</room>
-      <room>rooms\rm_test</room>
     </rooms>
     <rooms name="Menu">
       <room>rooms\rm_gameover</room>
