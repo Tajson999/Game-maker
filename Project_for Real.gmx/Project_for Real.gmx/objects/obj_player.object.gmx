@@ -265,7 +265,7 @@ if (Attacking = false)
         sprite_index = spr_player_run;
         image_speed = .2;
         image_xscale = 1;
-        Direction = "up"
+        Direction = "Up"
         }
         
     if(keyboard_check(ord('S'))&amp;&amp; place_free(x,y+4)){
@@ -355,7 +355,7 @@ if (global.Attacking = false)
             instance_create(obj_player.x,obj_player.y,obj_attackbox_down)
             global.Attacking = true
 ///up
-            }else if (Direction = "up") {
+            }else if (Direction = "Up") {
             sprite_index = spr_player_attacking_up
             image_speed = 0.1
             image_index = 0

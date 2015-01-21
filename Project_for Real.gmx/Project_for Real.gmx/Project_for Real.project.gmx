@@ -284,10 +284,10 @@
         <sprite>sprites\spr_player_attacking_left</sprite>
         <sprite>sprites\spr_player_attacking_right</sprite>
         <sprite>sprites\spr_player_attacking_down</sprite>
-        <sprite>sprites\spr_attackbox_left</sprite>
         <sprite>sprites\spr_attackbox_right</sprite>
         <sprite>sprites\spr_attackbox_up</sprite>
         <sprite>sprites\spr_attackbox_down</sprite>
+        <sprite>sprites\spr_attackbox_left</sprite>
       </sprites>
     </sprites>
     <sprites name="Enemy sprites">
