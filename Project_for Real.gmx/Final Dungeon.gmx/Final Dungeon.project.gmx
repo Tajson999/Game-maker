@@ -343,6 +343,7 @@
       <object>objects\obj_text_coin</object>
       <object>objects\obj_non_lvl_txt</object>
       <object>objects\obj_room_cmd</object>
+      <object>objects\obj_timer</object>
       <object>objects\obj_health_cmd</object>
       <object>objects\obj_over_txt</object>
       <object>objects\obj_draw_bombs</object>
@@ -350,29 +351,29 @@
     </objects>
     <objects name="Buttons">
       <object>objects\obj_GAMEOVER</object>
+      <object>objects\obj_yes_fullscreen</object>
+      <object>objects\obj_no_fullscreen</object>
       <object>objects\obj_exit</object>
       <object>objects\obj_Play</object>
     </objects>
     <object>objects\obj_pressure</object>
-    <object>objects\obj_timer</object>
     <object>objects\obj_pressure_door</object>
     <object>objects\obj_key</object>
-    <object>objects\obj_bomb_pick_up</object>
     <object>objects\obj_settings</object>
-    <object>objects\obj_no_fullscreen</object>
-    <object>objects\obj_yes_fullscreen</object>
     <object>objects\obj_back</object>
-    <object>objects\obj_bomb</object>
     <object>objects\obj_fake_wall</object>
-    <object>objects\obj_bomb_boom</object>
-    <object>objects\object32</object>
     <object>objects\obj_attackbox_right</object>
     <object>objects\obj_attackbox_left</object>
     <object>objects\obj_attackbox_down</object>
     <object>objects\obj_attackbox_up</object>
     <object>objects\obj_shadow</object>
-    <object>objects\obj_spear_on_the_ground</object>
-    <object>objects\obj_spear_thrown</object>
+    <objects name="Weapons">
+      <object>objects\obj_spear_thrown</object>
+      <object>objects\obj_spear_on_the_ground</object>
+      <object>objects\obj_bomb_pick_up</object>
+      <object>objects\obj_bomb_boom</object>
+      <object>objects\obj_bomb</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>

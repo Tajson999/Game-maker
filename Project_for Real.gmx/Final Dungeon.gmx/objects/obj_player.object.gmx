@@ -499,7 +499,7 @@ if (global.Attacking = false)
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>rm_gameover</room>
+            <room>-100</room>
           </argument>
         </arguments>
       </action>
@@ -709,7 +709,7 @@ if (global.Attacking = false)
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>-100</object>
+            <object>obj_bomb</object>
           </argument>
           <argument>
             <kind>0</kind>
