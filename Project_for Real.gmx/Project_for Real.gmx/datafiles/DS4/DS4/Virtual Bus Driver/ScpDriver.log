@@ -1,0 +1,83 @@
+SCP Virtual Bus Driver Installer 1.0.0.103 [12/1/2013 9:22:59 AM]
+
+Detected - Microsoft Windows 81 Pro (6.2.9200.0 AMD64)
+Selected DEFAULT configuration.
+
+
+SCP Virtual Bus Driver Installer 1.0.0.103 [12/2/2013 8:51:44 PM]
+
+Detected - Microsoft Windows 81 Pro (6.2.9200.0 AMD64)
+Selected DEFAULT configuration.
+
+
+SCP Virtual Bus Driver Installer 1.0.0.103 [12/3/2013 12:50:59 AM]
+
+Detected - Microsoft Windows 81 Pro (6.2.9200.0 AMD64)
+Selected DEFAULT configuration.
+
+
+SCP Virtual Bus Driver Installer 1.0.0.103 [2013-12-25 01:14:56]
+
+Detected - Microsoft Windows 7 Enterprise Service Pack 1 (6.1.7601.65536 AMD64)
+Selected WIN7 configuration.
+
+SUCCESS - Virtual Bus Created
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing INF file 'C:\Users\jonatan.larsson1\Desktop\Ny mapp\Virtual Bus Driver\System\ScpVBus.inf' (Plug and Play).
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing devices with Id "root\ScpVBus" using INF "C:\windows\System32\DriverStore\FileRepository\scpvbus.inf_amd64_neutral_21ca245c0e23d7a5\ScpVBus.inf".
+INFO    - ENTER UpdateDriverForPlugAndPlayDevices...
+SUCCESS - RETURN UpdateDriverForPlugAndPlayDevices.
+INFO    - Installation was successful.
+SUCCESS - Install completed
+INFO    - RETURN: DriverPackageInstallW  (0x0)
+
+Install Succeeded.
+
+-- Install Summary --
+Bus Device
+Bus Driver
+
+
+
+SCP Virtual Bus Driver Installer 1.0.0.103 [2013-12-25 20:09:46]
+
+Detected - Microsoft Windows 81 Pro (6.2.9200.0 AMD64)
+Selected DEFAULT configuration.
+
+SUCCESS - Virtual Bus Created
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing INF file 'C:\Users\Jonatan\Dropbox\DS4\Virtual Bus Driver\System\ScpVBus.inf' (Plug and Play).
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing devices with Id "root\ScpVBus" using INF "C:\WINDOWS\System32\DriverStore\FileRepository\scpvbus.inf_amd64_21ca245c0e23d7a5\ScpVBus.inf".
+INFO    - ENTER UpdateDriverForPlugAndPlayDevices...
+SUCCESS - RETURN UpdateDriverForPlugAndPlayDevices.
+INFO    - Installation was successful.
+SUCCESS - Install completed
+INFO    - RETURN: DriverPackageInstallW  (0x0)
+
+Install Succeeded.
+
+-- Install Summary --
+Bus Device
+Bus Driver
+
+
+
+SCP Virtual Bus Driver Installer 1.0.0.103 [2014-09-19 23:27:05]
+
+Detected - Microsoft Windows 7 Professional Service Pack 1 (6.1.7601.65536 AMD64)
+Selected WIN7 configuration.
+
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - RETURN: DriverPackageInstallW  (0x103)
+
+Install Succeeded.
+
+-- Install Summary --
+
+
+
