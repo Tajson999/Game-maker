@@ -331,16 +331,29 @@
     <script>scripts\scr_find_depth.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\obj_player</object>
-    <object>objects\obj_backup_player</object>
+    <objects name="Player">
+      <object>objects\obj_backup_player</object>
+      <object>objects\obj_attackbox_right</object>
+      <object>objects\obj_attackbox_left</object>
+      <object>objects\obj_attackbox_down</object>
+      <object>objects\obj_attackbox_up</object>
+      <object>objects\obj_player</object>
+    </objects>
+    <objects name="Weapons">
+      <object>objects\obj_spear_thrown</object>
+      <object>objects\obj_spear_on_the_ground</object>
+      <object>objects\obj_bomb_pick_up</object>
+      <object>objects\obj_bomb_boom</object>
+      <object>objects\obj_bomb</object>
+    </objects>
     <object>objects\obj_enemy</object>
     <object>objects\obj_enemy2</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_coin</object>
     <object>objects\obj_door</object>
     <object>objects\obj_target_door</object>
+    <object>objects\obj_pressure_door</object>
     <object>objects\obj_starter_door</object>
-    <object>objects\obj_next</object>
     <object>objects\obj_false_enemy</object>
     <objects name="Commands">
       <object>objects\obj_text_coin</object>
@@ -351,6 +364,7 @@
       <object>objects\obj_over_txt</object>
       <object>objects\obj_draw_bombs</object>
       <object>objects\obj_draw_keys</object>
+      <object>objects\obj_next</object>
     </objects>
     <objects name="Buttons">
       <object>objects\obj_GAMEOVER</object>
@@ -358,32 +372,20 @@
       <object>objects\obj_no_fullscreen</object>
       <object>objects\obj_exit</object>
       <object>objects\obj_Play</object>
+      <object>objects\obj_back</object>
+      <object>objects\obj_settings</object>
     </objects>
     <object>objects\obj_pressure</object>
-    <object>objects\obj_pressure_door</object>
     <object>objects\obj_key</object>
-    <object>objects\obj_settings</object>
-    <object>objects\obj_back</object>
     <object>objects\obj_fake_wall</object>
-    <object>objects\obj_attackbox_right</object>
-    <object>objects\obj_attackbox_left</object>
-    <object>objects\obj_attackbox_down</object>
-    <object>objects\obj_attackbox_up</object>
     <object>objects\obj_shadow</object>
-    <objects name="Weapons">
-      <object>objects\obj_spear_thrown</object>
-      <object>objects\obj_spear_on_the_ground</object>
-      <object>objects\obj_bomb_pick_up</object>
-      <object>objects\obj_bomb_boom</object>
-      <object>objects\obj_bomb</object>
-    </objects>
     <object>objects\obj_target</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_test</room>
     <room>rooms\rm_main</room>
     <rooms name="Levels">
       <room>rooms\rm_lvl1_1</room>
+      <room>rooms\rm_test</room>
       <room>rooms\rm_lvl01</room>
     </rooms>
     <rooms name="Menu">
