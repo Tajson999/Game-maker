@@ -272,6 +272,7 @@
       <sprite>sprites\spr_fake_wall</sprite>
       <sprite>sprites\spr_Door</sprite>
       <sprite>sprites\spr_pressure_door</sprite>
+      <sprite>sprites\spr_target_door</sprite>
       <sprite>sprites\spr_heart</sprite>
       <sprite>sprites\spr_next</sprite>
     </sprites>
@@ -313,6 +314,7 @@
     <sprite>sprites\spr_spear</sprite>
     <sprite>sprites\spr_spear_throw</sprite>
     <sprite>sprites\spr_shadow</sprite>
+    <sprite>sprites\spr_traget</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tile_title</background>
@@ -336,6 +338,7 @@
     <object>objects\obj_wall</object>
     <object>objects\obj_coin</object>
     <object>objects\obj_door</object>
+    <object>objects\obj_target_door</object>
     <object>objects\obj_starter_door</object>
     <object>objects\obj_next</object>
     <object>objects\obj_false_enemy</object>
@@ -374,13 +377,14 @@
       <object>objects\obj_bomb_boom</object>
       <object>objects\obj_bomb</object>
     </objects>
+    <object>objects\obj_target</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_test</room>
     <room>rooms\rm_main</room>
     <rooms name="Levels">
       <room>rooms\rm_lvl1_1</room>
       <room>rooms\rm_lvl01</room>
-      <room>rooms\rm_test</room>
     </rooms>
     <rooms name="Menu">
       <room>rooms\rm_gameover</room>
