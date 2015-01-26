@@ -386,7 +386,7 @@
     <rooms name="Levels">
       <room>rooms\rm_lvl1_1</room>
       <room>rooms\rm_test</room>
-      <room>rooms\rm_lvl01</room>
+      <room>rooms\rm_lvl1_2</room>
     </rooms>
     <rooms name="Menu">
       <room>rooms\rm_gameover</room>
