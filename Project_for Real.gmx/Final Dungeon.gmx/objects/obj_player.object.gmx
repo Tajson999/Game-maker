@@ -287,7 +287,6 @@ if (Attacking = false)
         y-=4;
         sprite_index = spr_player_run;
         image_speed = .2;
-        image_xscale = 1;
         Direction = "Up"
         }
         
@@ -295,7 +294,6 @@ if (Attacking = false)
         y+=4;
         sprite_index = spr_player_run;
         image_speed = .2;
-        image_xscale = 1;
         Direction = "Down"
         }
         
@@ -498,7 +496,7 @@ if (global.Attacking = false)
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>-100</room>
+            <room>rm_gameover</room>
           </argument>
         </arguments>
       </action>
