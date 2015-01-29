@@ -330,6 +330,9 @@
     <script>scripts\scr_ai.gml</script>
     <script>scripts\scr_find_depth.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\ft_bmb_key</font>
+  </fonts>
   <objects name="objects">
     <objects name="Player">
       <object>objects\obj_backup_player</object>
@@ -380,8 +383,10 @@
     <object>objects\obj_fake_wall</object>
     <object>objects\obj_shadow</object>
     <object>objects\obj_target</object>
+    <object>objects\obj_paper</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room7</room>
     <room>rooms\rm_main</room>
     <rooms name="Levels">
       <room>rooms\rm_lvl1_1</room>
