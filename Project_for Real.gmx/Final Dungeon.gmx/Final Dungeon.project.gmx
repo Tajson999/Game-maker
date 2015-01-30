@@ -386,8 +386,8 @@
     <object>objects\obj_paper</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room7</room>
     <room>rooms\rm_main</room>
+    <room>rooms\rm_surface_test</room>
     <rooms name="Levels">
       <room>rooms\rm_lvl1_1</room>
       <room>rooms\rm_test</room>
