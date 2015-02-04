@@ -390,8 +390,8 @@
     <room>rooms\rm_surface_test</room>
     <rooms name="Levels">
       <room>rooms\rm_lvl1_1</room>
-      <room>rooms\rm_test</room>
       <room>rooms\rm_lvl1_2</room>
+      <room>rooms\rm_test</room>
     </rooms>
     <rooms name="Menu">
       <room>rooms\rm_gameover</room>
