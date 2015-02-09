@@ -49,7 +49,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>50</string>
+            <string>100</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -91,7 +91,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>x-=3;
+            <string>x-=3.5;
 
 </string>
           </argument>
