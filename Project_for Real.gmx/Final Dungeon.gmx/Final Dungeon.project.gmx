@@ -269,6 +269,8 @@
     <sprites name="Misc">
       <sprite>sprites\spr_coin</sprite>
       <sprite>sprites\spr_wall</sprite>
+      <sprite>sprites\spr_blow</sprite>
+      <sprite>sprites\spr_wind</sprite>
       <sprite>sprites\spr_fake_wall</sprite>
       <sprite>sprites\spr_Door</sprite>
       <sprite>sprites\spr_pressure_door</sprite>
@@ -383,14 +385,16 @@
     <object>objects\obj_shadow</object>
     <object>objects\obj_target</object>
     <object>objects\obj_paper</object>
+    <object>objects\obj_blowing</object>
+    <object>objects\obj_wind</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_test</room>
     <room>rooms\rm_main</room>
     <room>rooms\rm_surface_test</room>
     <rooms name="Levels">
       <room>rooms\rm_lvl1_1</room>
       <room>rooms\rm_lvl1_2</room>
-      <room>rooms\rm_test</room>
     </rooms>
     <rooms name="Menu">
       <room>rooms\rm_gameover</room>

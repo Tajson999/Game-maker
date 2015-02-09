@@ -77,6 +77,8 @@
     <instance objName="obj_spear_on_the_ground" x="160" y="352" name="inst_C042C6B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spear_on_the_ground" x="160" y="352" name="inst_075AB2D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spear_on_the_ground" x="96" y="384" name="inst_A8E57CBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blowing" x="448" y="192" name="inst_9F4812A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blowing" x="512" y="192" name="inst_EABDADE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
