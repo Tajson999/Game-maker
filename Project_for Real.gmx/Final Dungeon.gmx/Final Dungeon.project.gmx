@@ -317,6 +317,7 @@
     <sprite>sprites\spr_spear_throw</sprite>
     <sprite>sprites\spr_shadow</sprite>
     <sprite>sprites\spr_traget</sprite>
+    <sprite>sprites\spr_lava</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tile_title</background>
@@ -387,6 +388,7 @@
     <object>objects\obj_paper</object>
     <object>objects\obj_blowing</object>
     <object>objects\obj_wind</object>
+    <object>objects\obj_lava</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>
