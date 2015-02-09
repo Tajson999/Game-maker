@@ -68,6 +68,7 @@
             <string>globalvar Attacking 
 global.Attacking = false
 AttackRate = 8
+Direction = "Up"
 </string>
           </argument>
         </arguments>
@@ -496,7 +497,7 @@ if (global.Attacking = false)
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>rm_gameover</room>
+            <room>-100</room>
           </argument>
         </arguments>
       </action>
