@@ -318,6 +318,7 @@
     <sprite>sprites\spr_shadow</sprite>
     <sprite>sprites\spr_traget</sprite>
     <sprite>sprites\spr_lava</sprite>
+    <sprite>sprites\spr_lvl1</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tile_title</background>
@@ -389,18 +390,19 @@
     <object>objects\obj_blowing</object>
     <object>objects\obj_wind</object>
     <object>objects\obj_lava</object>
+    <object>objects\obj_lvl1_1</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_lvl1_2</room>
     <room>rooms\rm_main</room>
     <room>rooms\rm_surface_test</room>
     <rooms name="Levels">
       <room>rooms\rm_lvl1_1</room>
+      <room>rooms\rm_lvl1_2</room>
       <room>rooms\rm_test</room>
     </rooms>
     <rooms name="Menu">
       <room>rooms\rm_gameover</room>
-      <room>rooms\lvl_selct</room>
+      <room>rooms\rm_lvl_selct</room>
       <room>rooms\rm_settings</room>
     </rooms>
   </rooms>
