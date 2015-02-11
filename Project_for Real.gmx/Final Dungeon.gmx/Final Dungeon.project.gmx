@@ -400,6 +400,7 @@
     </rooms>
     <rooms name="Menu">
       <room>rooms\rm_gameover</room>
+      <room>rooms\lvl_selct</room>
       <room>rooms\rm_settings</room>
     </rooms>
   </rooms>
