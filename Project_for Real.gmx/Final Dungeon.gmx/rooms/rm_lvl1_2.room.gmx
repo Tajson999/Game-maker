@@ -327,6 +327,7 @@
     <instance objName="obj_lava" x="1888" y="96" name="inst_2363A5BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lava" x="1888" y="72" name="inst_EFCAE2F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lava" x="1888" y="48" name="inst_A0E4687F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_next2" x="-32" y="384" name="inst_A6D4B976" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tile_entrence" x="1792" y="744" w="16" h="48" xo="0" yo="0" id="10002075" name="inst_13F8701B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

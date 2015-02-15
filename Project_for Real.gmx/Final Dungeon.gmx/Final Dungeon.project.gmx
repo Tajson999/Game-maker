@@ -371,6 +371,7 @@
       <object>objects\obj_draw_bombs</object>
       <object>objects\obj_draw_keys</object>
       <object>objects\obj_next</object>
+      <object>objects\obj_next2</object>
     </objects>
     <objects name="Buttons">
       <object>objects\obj_GAMEOVER</object>
@@ -398,8 +399,8 @@
     <rooms name="Levels">
       <room>rooms\rm_lvl1_1</room>
       <room>rooms\rm_lvl1_2</room>
-      <room>rooms\rm_test</room>
       <room>rooms\rm_lvl1_3</room>
+      <room>rooms\rm_test</room>
     </rooms>
     <rooms name="Menu">
       <room>rooms\rm_gameover</room>
