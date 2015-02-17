@@ -297,6 +297,7 @@
     <sprites name="Enemy sprites">
       <sprite>sprites\spr_enemy</sprite>
       <sprite>sprites\spr_enemy_2</sprite>
+      <sprite>sprites\spr_boss</sprite>
     </sprites>
     <sprites name="txt">
       <sprite>sprites\spr_Exit</sprite>
@@ -392,6 +393,7 @@
     <object>objects\obj_wind</object>
     <object>objects\obj_lava</object>
     <object>objects\obj_lvl1_1</object>
+    <object>objects\obj_boss</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
@@ -407,6 +409,7 @@
       <room>rooms\rm_lvl_selct</room>
       <room>rooms\rm_settings</room>
     </rooms>
+    <room>rooms\rm_boss</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
