@@ -8,6 +8,50 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>711</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_set_life</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>100</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>health = 100
+counter = 75
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -25,17 +69,200 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>{
-   if(instance_exists(obj_player)) {
+            <string>
+if(counter &gt; 0){
+   counter -=1
+}else{
+var attack = random(4)
+
+if(0 &lt; attack &lt;= 1){
+    instance_create(obj_boss.x,obj_boss.y,obj_enemy)
+    counter = 75
+}else if(1 &lt; attack &lt;= 2){
+//up
+    with(obj_boss_spear){
+    Direction = "Up"
+    }
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)  
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)    
+//down
+    with(obj_boss_spear){
+    Direction = "Down"
+    }
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)  
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
+//left
+    with(obj_boss_spear){
+    Direction = "Left"
+    }
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)  
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)   
+//right
+    with(obj_boss_spear){
+    Direction = "Right"
+    }
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)  
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
+    counter = 75
+}else if(2 &lt; attack &lt;= 3){
+    speed = 4
+}else if(3 &lt; attack &lt;=4){
+
+}else{
+    counter = 20
+}
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (health &lt;= 0){
+    instance_destroy()
+}
+  
+if(instance_exists(obj_player)) {
         if(distance_to_point(obj_player.x, obj_player.y) &lt;= 256 &amp;&amp; !collision_line(x,y,obj_player.x,obj_player.y,obj_wall,false,true)) {
             friction = 0;
             motion_add(point_direction(x,y,obj_player.x,obj_player.y),1);
             if(speed &gt;= 2) speed = 2;
         } else {
-           friction = 1;
+           friction = 0.2;
         }
    }
-}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_player">
+      <action>
+        <libid>1</libid>
+        <id>721</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_set_health</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>-75</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_attackbox_up">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>health -= 10
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_attackbox_down">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>health -= 10
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_attackbox_left">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>health -= 10
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_attackbox_right">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>health -= 10
 </string>
           </argument>
         </arguments>

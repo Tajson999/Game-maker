@@ -349,6 +349,7 @@
     </objects>
     <objects name="Weapons">
       <object>objects\obj_spear_thrown</object>
+      <object>objects\obj_boss_spear</object>
       <object>objects\obj_spear_on_the_ground</object>
       <object>objects\obj_bomb_pick_up</object>
       <object>objects\obj_bomb_boom</object>
@@ -396,6 +397,7 @@
     <object>objects\obj_boss</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_boss</room>
     <room>rooms\rm_main</room>
     <room>rooms\rm_surface_test</room>
     <rooms name="Levels">
@@ -409,7 +411,6 @@
       <room>rooms\rm_lvl_selct</room>
       <room>rooms\rm_settings</room>
     </rooms>
-    <room>rooms\rm_boss</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
