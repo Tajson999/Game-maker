@@ -47,6 +47,9 @@
             <kind>1</kind>
             <string>health = 100
 counter = 75
+with(obj_boss_spear){
+    var Direction = "Down"
+}
 </string>
           </argument>
         </arguments>
@@ -72,16 +75,46 @@ counter = 75
             <string>
 if(counter &gt; 0){
    counter -=1
+var attack = irandom(4)
 }else{
-var attack = random(4)
+var attack = irandom(4)
 
 if(0 &lt; attack &lt;= 1){
-    instance_create(obj_boss.x,obj_boss.y,obj_enemy)
+
+//up
+    with(obj_boss_spear){
+    global.Direction = "Up"
+    }
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)  
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)    
+//down
+    with(obj_boss_spear){
+    global.Direction = "Down"
+    }
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)  
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
+//left
+    with(obj_boss_spear){
+    global.Direction = "Left"
+    }
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)  
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)   
+//right
+    with(obj_boss_spear){
+    global.Direction = "Right"
+    }
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)  
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
     counter = 75
+
 }else if(1 &lt; attack &lt;= 2){
 //up
     with(obj_boss_spear){
-    Direction = "Up"
+    global.Direction = "Up"
     }
     instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
     instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)  
