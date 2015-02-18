@@ -380,6 +380,7 @@
       <object>objects\obj_draw_keys</object>
       <object>objects\obj_next</object>
       <object>objects\obj_next2</object>
+      <object>objects\obj_boss_hp</object>
     </objects>
     <objects name="Buttons">
       <object>objects\obj_GAMEOVER</object>
@@ -405,8 +406,8 @@
     <object>objects\obj_lock_door</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_main</room>
     <room>rooms\rm_boss</room>
+    <room>rooms\rm_main</room>
     <room>rooms\rm_surface_test</room>
     <rooms name="Levels">
       <room>rooms\rm_lvl1_2</room>
