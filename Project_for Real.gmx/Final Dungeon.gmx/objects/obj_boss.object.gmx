@@ -72,83 +72,62 @@ with(obj_boss_spear){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-if(counter &gt; 0){
+            <string>if(counter &gt; 0){
    counter -=1
-var attack = irandom(4)
+//var attack = irandom(4)
 }else{
-var attack = irandom(4)
-
-if(0 &lt; attack &lt;= 1){
+//{
+//var attack = irandom(4)
+//
+//if(0 &lt; attack &lt;= 1){
 
 //up
-    with(obj_boss_spear){
-    global.Direction = "Up"
-    }
     instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
-    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)  
-    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)    
+    instance_create(obj_boss.x+16,obj_boss.y,obj_boss_spear)
+    instance_create(obj_boss.x-16,obj_boss.y,obj_boss_spear)    
+with(obj_boss_spear){
+    direction = 90
+    speed = 8
+    image_angle = direction}
 //down
-    with(obj_boss_spear){
-    global.Direction = "Down"
+    instance_create(obj_boss.x+16,obj_boss.y,obj_boss_spear_down)
+    instance_create(obj_boss.x-16,obj_boss.y,obj_boss_spear_down)  
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear_down)
+    with(obj_boss_spear_down){
+    direction = 270
+    speed = 8
+    image_angle = direction
     }
-    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
-    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)  
-    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
 //left
-    with(obj_boss_spear){
-    global.Direction = "Left"
+    instance_create(obj_boss.x,obj_boss.y+16,obj_boss_spear_left)
+    instance_create(obj_boss.x,obj_boss.y-16,obj_boss_spear_left)  
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear_left)   
+    with(obj_boss_spear_left){
+    direction = 180
+    speed = 8
+    image_angle = direction
     }
-    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
-    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)  
-    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)   
 //right
-    with(obj_boss_spear){
-    global.Direction = "Right"
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear_right)
+    instance_create(obj_boss.x,obj_boss.y-16,obj_boss_spear_right)  
+    instance_create(obj_boss.x,obj_boss.y+16,obj_boss_spear_right)
+    with(obj_boss_spear_right){
+    direction = 0
+    speed = 8
+    image_angle = direction
     }
-    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
-    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)  
-    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
-    counter = 75
+  counter = 75
 
-}else if(1 &lt; attack &lt;= 2){
-//up
-    with(obj_boss_spear){
-    global.Direction = "Up"
-    }
-    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
-    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)  
-    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)    
-//down
-    with(obj_boss_spear){
-    Direction = "Down"
-    }
-    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
-    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)  
-    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
-//left
-    with(obj_boss_spear){
-    Direction = "Left"
-    }
-    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
-    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)  
-    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)   
-//right
-    with(obj_boss_spear){
-    Direction = "Right"
-    }
-    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
-    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)  
-    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
-    counter = 75
-}else if(2 &lt; attack &lt;= 3){
-    speed = 4
-}else if(3 &lt; attack &lt;=4){
+//}else if(1 &lt; attack &lt;= 2){
 
-}else{
-    counter = 20
+//}else if(2 &lt; attack &lt;= 3){
+//    speed = 4
+//}else if(3 &lt; attack &lt;=4){
+//
+//}else{
+//    counter = 20
 }
-}
+//}
 </string>
           </argument>
         </arguments>

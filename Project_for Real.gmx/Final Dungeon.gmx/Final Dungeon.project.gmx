@@ -350,6 +350,9 @@
     <objects name="Weapons">
       <object>objects\obj_spear_thrown</object>
       <object>objects\obj_boss_spear</object>
+      <object>objects\obj_boss_spear_left</object>
+      <object>objects\obj_boss_spear_right</object>
+      <object>objects\obj_boss_spear_down</object>
       <object>objects\obj_spear_on_the_ground</object>
       <object>objects\obj_bomb_pick_up</object>
       <object>objects\obj_bomb_boom</object>
