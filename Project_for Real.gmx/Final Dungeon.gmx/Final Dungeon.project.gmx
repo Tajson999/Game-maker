@@ -273,10 +273,12 @@
       <sprite>sprites\spr_wind</sprite>
       <sprite>sprites\spr_fake_wall</sprite>
       <sprite>sprites\spr_Door</sprite>
+      <sprite>sprites\spr_lock_door_</sprite>
       <sprite>sprites\spr_pressure_door</sprite>
       <sprite>sprites\spr_target_door</sprite>
       <sprite>sprites\spr_heart</sprite>
       <sprite>sprites\spr_next</sprite>
+      <sprite>sprites\spr_entrence_pad</sprite>
     </sprites>
     <sprites name="Player sprites">
       <sprite>sprites\spr_player</sprite>
@@ -371,6 +373,7 @@
       <object>objects\obj_non_lvl_txt</object>
       <object>objects\obj_room_cmd</object>
       <object>objects\obj_timer</object>
+      <object>objects\obj_entrence_timer</object>
       <object>objects\obj_health_cmd</object>
       <object>objects\obj_over_txt</object>
       <object>objects\obj_draw_bombs</object>
@@ -388,6 +391,7 @@
       <object>objects\obj_settings</object>
     </objects>
     <object>objects\obj_pressure</object>
+    <object>objects\obj_entrence</object>
     <object>objects\obj_key</object>
     <object>objects\obj_fake_wall</object>
     <object>objects\obj_shadow</object>
@@ -398,16 +402,17 @@
     <object>objects\obj_lava</object>
     <object>objects\obj_lvl1_1</object>
     <object>objects\obj_boss</object>
+    <object>objects\obj_lock_door</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_boss</room>
     <room>rooms\rm_main</room>
+    <room>rooms\rm_boss</room>
     <room>rooms\rm_surface_test</room>
     <rooms name="Levels">
-      <room>rooms\rm_lvl1_1</room>
       <room>rooms\rm_lvl1_2</room>
       <room>rooms\rm_lvl1_3</room>
       <room>rooms\rm_test</room>
+      <room>rooms\rm_lvl1_1</room>
     </rooms>
     <rooms name="Menu">
       <room>rooms\rm_gameover</room>
