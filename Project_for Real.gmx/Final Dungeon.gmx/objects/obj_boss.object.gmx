@@ -47,37 +47,13 @@
             <kind>1</kind>
             <string>health = 100
 counter = 75
+globalvar hp_counter
+global.hp_counter = 0
 
 </string>
           </argument>
         </arguments>
       </action>
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>invis</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
         <id>611</id>
@@ -126,6 +102,7 @@ counter = 75
 var attack = irandom(3)
 
 if(0 = attack){
+speed = 1
 
 //up
     instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
@@ -164,6 +141,7 @@ with(obj_boss_spear_right){
     }
   counter = 75
 }else if(1 = attack ){
+    speed = 1
     instance_create(obj_boss.x,obj_boss.y,obj_enemy)
     counter = 75
 }else if(2 = attack ){
@@ -196,7 +174,10 @@ with(obj_boss_spear_right){
             <kind>1</kind>
             <string>if (health &lt;= 0){
     instance_destroy()
-}
+}else{
+if(hp_counter &gt; 0){
+    hp_counter -= 1
+}else{
   
 if(instance_exists(obj_player)) {
         if(distance_to_point(obj_player.x, obj_player.y) &lt;= 256 &amp;&amp; !collision_line(x,y,obj_player.x,obj_player.y,obj_wall,false,true)) {
@@ -206,136 +187,10 @@ if(instance_exists(obj_player)) {
         } else {
            friction = 0.2;
         }
-   }
+   }}}
 </string>
           </argument>
         </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_player">
-      <action>
-        <libid>1</libid>
-        <id>612</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>-1</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_if_variable</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>invis</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>422</id>
-        <kind>1</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>0</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>721</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_health</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>-1</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>-75</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>invis</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>1</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>301</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_alarm</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>40</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>424</id>
-        <kind>2</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>0</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
       </action>
     </event>
     <event eventtype="4" ename="obj_attackbox_up">
@@ -355,7 +210,11 @@ if(instance_exists(obj_player)) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>health -= 10
+            <string>if(hp_counter &lt;= 0){
+health -= 10
+hp_counter = 50
+speed = 0
+}
 </string>
           </argument>
         </arguments>
@@ -378,7 +237,11 @@ if(instance_exists(obj_player)) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>health -= 10
+            <string>if(hp_counter &lt;= 0){
+health -= 10
+hp_counter = 50
+speed = 0
+}
 </string>
           </argument>
         </arguments>
@@ -401,7 +264,11 @@ if(instance_exists(obj_player)) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>health -= 10
+            <string>if(hp_counter &lt;= 0){
+health -= 10
+hp_counter = 50
+speed = 0
+}
 </string>
           </argument>
         </arguments>
@@ -424,7 +291,11 @@ if(instance_exists(obj_player)) {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>health -= 10
+            <string>if(hp_counter &lt;= 0){
+health -= 10
+hp_counter = 50
+speed = 0
+}
 </string>
           </argument>
         </arguments>
