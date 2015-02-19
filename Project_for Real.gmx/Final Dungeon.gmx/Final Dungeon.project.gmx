@@ -300,6 +300,7 @@
       <sprite>sprites\spr_enemy</sprite>
       <sprite>sprites\spr_enemy_2</sprite>
       <sprite>sprites\spr_boss</sprite>
+      <sprite>sprites\spr_test</sprite>
     </sprites>
     <sprites name="txt">
       <sprite>sprites\spr_Exit</sprite>
@@ -322,6 +323,7 @@
     <sprite>sprites\spr_traget</sprite>
     <sprite>sprites\spr_lava</sprite>
     <sprite>sprites\spr_lvl1</sprite>
+    <sprite>sprites\spr_fireball_boss</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tile_title</background>
@@ -405,7 +407,9 @@
     <object>objects\obj_lava</object>
     <object>objects\obj_lvl1_1</object>
     <object>objects\obj_boss</object>
+    <object>objects\obj_test</object>
     <object>objects\obj_lock_door</object>
+    <object>objects\obj_boss_fireball</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_boss</room>

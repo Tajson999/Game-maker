@@ -182,6 +182,7 @@
     <instance objName="obj_draw_keys" x="160" y="96" name="inst_3A49C279" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_draw_bombs" x="160" y="144" name="inst_435951C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_boss_hp" x="448" y="96" name="inst_5555D405" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_test" x="192" y="264" name="inst_E1C1DBED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
