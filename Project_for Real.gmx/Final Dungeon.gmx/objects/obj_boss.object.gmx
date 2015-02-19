@@ -100,7 +100,8 @@ global.hp_counter = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(counter &gt; 0){
+            <string>//attack
+if(counter &gt; 0){
    counter -=1
 }else{
 var attack = irandom(3)
@@ -151,7 +152,7 @@ with(obj_boss_spear_right){
 }else if(2 = attack ){
     speed = 10
 }else if(3 = attack ){
-
+    
 }else{
     counter = 20
 }

@@ -332,6 +332,7 @@
   </backgrounds>
   <paths name="paths">
     <path>paths\Scenery</path>
+    <path>paths\pa_fireball_boss</path>
   </paths>
   <scripts name="scripts">
     <script>scripts\scr_ai.gml</script>
