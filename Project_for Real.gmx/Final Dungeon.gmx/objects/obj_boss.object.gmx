@@ -104,7 +104,7 @@ global.hp_counter = 0
 if(counter &gt; 0){
    counter -=1
 }else{
-var attack = 3
+var attack = irandom(3)
 
 if(0 = attack){
 speed = 1
@@ -153,13 +153,28 @@ with(obj_boss_spear_right){
     speed = 10
     counter = 75
 }else if(3 = attack ){
+
+    speed = 2
+    sprite_index = spr_boss_jump
+    var counter_jump = 75
+    if(counter_jump &gt; 0){
+    counter_jump -= 1
+    }else{
+    
+    }
+
+
+
+
+
+//      WPN
 //fireball attack
-    instance_create(obj_boss.x+64,obj_boss.y, obj_boss_fireball)
-    instance_create(obj_boss.x-64,obj_boss.y, obj_boss_fireball)
-    instance_create(obj_boss.x,obj_boss.y-64, obj_boss_fireball)
-    instance_create(obj_boss.x,obj_boss.y+64, obj_boss_fireball)
-    instance_create(obj_boss.x-32,obj_boss.y+48, obj_boss_fireball)
-    instance_create(obj_boss.x-42,obj_boss.y+33, obj_boss_fireball)
+//    instance_create(obj_boss.x+64,obj_boss.y, obj_boss_fireball)
+//    instance_create(obj_boss.x-64,obj_boss.y, obj_boss_fireball)
+//    instance_create(obj_boss.x,obj_boss.y-64, obj_boss_fireball)
+//    instance_create(obj_boss.x,obj_boss.y+64, obj_boss_fireball)
+//    instance_create(obj_boss.x-32,obj_boss.y+48, obj_boss_fireball)
+//    instance_create(obj_boss.x-42,obj_boss.y+33, obj_boss_fireball)
     
     counter = 75
 }else{

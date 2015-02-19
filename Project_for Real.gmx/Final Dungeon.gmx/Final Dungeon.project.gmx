@@ -300,6 +300,7 @@
       <sprite>sprites\spr_enemy</sprite>
       <sprite>sprites\spr_enemy_2</sprite>
       <sprite>sprites\spr_boss</sprite>
+      <sprite>sprites\spr_boss_jump</sprite>
       <sprite>sprites\spr_test</sprite>
     </sprites>
     <sprites name="txt">
