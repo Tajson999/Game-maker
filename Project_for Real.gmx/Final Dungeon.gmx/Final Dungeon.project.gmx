@@ -381,6 +381,7 @@
       <object>objects\obj_next</object>
       <object>objects\obj_next2</object>
       <object>objects\obj_boss_hp</object>
+      <object>objects\obj_boss_win</object>
     </objects>
     <objects name="Buttons">
       <object>objects\obj_GAMEOVER</object>
