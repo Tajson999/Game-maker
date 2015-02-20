@@ -337,6 +337,7 @@
   <paths name="paths">
     <path>paths\Scenery</path>
     <path>paths\pa_fireball_boss</path>
+    <path>paths\pa_entrence</path>
   </paths>
   <scripts name="scripts">
     <script>scripts\scr_ai.gml</script>
@@ -353,6 +354,7 @@
       <object>objects\obj_attackbox_down</object>
       <object>objects\obj_attackbox_up</object>
       <object>objects\obj_player</object>
+      <object>objects\obj_plyer_dummy</object>
     </objects>
     <objects name="Weapons">
       <object>objects\obj_spear_thrown</object>
@@ -415,6 +417,7 @@
     <object>objects\obj_boss_jump</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_lvl1_1</room>
     <room>rooms\rm_boss</room>
     <room>rooms\rm_main</room>
     <room>rooms\rm_surface_test</room>
@@ -422,7 +425,6 @@
       <room>rooms\rm_lvl1_2</room>
       <room>rooms\rm_lvl1_3</room>
       <room>rooms\rm_test</room>
-      <room>rooms\rm_lvl1_1</room>
     </rooms>
     <rooms name="Menu">
       <room>rooms\rm_gameover</room>
