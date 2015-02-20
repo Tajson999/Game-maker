@@ -69,6 +69,8 @@
 global.Attacking = false
 AttackRate = 8
 Direction = "Up"
+globalvar hp_boss_time
+global.hp_boss_time = 0
 </string>
           </argument>
         </arguments>
@@ -193,6 +195,30 @@ Direction = "Up"
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>invis2</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="2" enumb="3">
       <action>
@@ -211,7 +237,7 @@ Direction = "Up"
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>invis</string>
+            <string>invis2</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -627,7 +653,7 @@ if (global.Attacking = false)
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>invis</string>
+            <string>invis2</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -689,7 +715,7 @@ if (global.Attacking = false)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>invis</string>
+            <string>invis2</string>
           </argument>
           <argument>
             <kind>0</kind>

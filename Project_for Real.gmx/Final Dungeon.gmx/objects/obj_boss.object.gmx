@@ -11,26 +11,6 @@
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
-        <id>711</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_life</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>100</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>603</id>
         <kind>7</kind>
         <userelative>0</userelative>
@@ -46,7 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>globalvar hp_boss
-global.hp_boss = 100
+
+
+
 globalvar max_hp_boss
 global.max_hp_boss = 100
 hp = 100
@@ -100,12 +82,12 @@ global.hp_counter = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//attack
+            <string>///attack
 if(counter &gt; 0){
    counter -=1
 }else{
 var attack = irandom(3)
-
+attack = irandom(3)
 if(0 = attack){
 speed = 1
 
@@ -155,33 +137,56 @@ with(obj_boss_spear_right){
 }else if(3 = attack ){
 
     speed = 2
-    sprite_index = spr_boss_jump
-    var counter_jump = 75
-    if(counter_jump &gt; 0){
-    counter_jump -= 1
-    }else{
-    
-    }
-
-
-
-
-
-//      WPN
-//fireball attack
-//    instance_create(obj_boss.x+64,obj_boss.y, obj_boss_fireball)
-//    instance_create(obj_boss.x-64,obj_boss.y, obj_boss_fireball)
-//    instance_create(obj_boss.x,obj_boss.y-64, obj_boss_fireball)
-//    instance_create(obj_boss.x,obj_boss.y+64, obj_boss_fireball)
-//    instance_create(obj_boss.x-32,obj_boss.y+48, obj_boss_fireball)
-//    instance_create(obj_boss.x-42,obj_boss.y+33, obj_boss_fireball)
-    
+    with(obj_boss_hp){
+    instance_destroy()}
+    instance_change(obj_boss_jump,true)
+ 
     counter = 75
 }else{
     counter = 20
 }
 }
 </string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>601</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>9</kind>
+            <script>scr_find_depth</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>
@@ -201,11 +206,19 @@ with(obj_boss_spear_right){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.hp_boss &lt;= 0){
+            <string>///health
+if(global.hp_boss_time = 0){
+    global.hp_boss = 100
+    global.hp_boss_time = 1
+}
+if (global.hp_boss &lt;= 0){
+    with(obj_boss_hp){
+    instance_destroy()
+    }
     instance_destroy()
 }else{
-if(hp_counter &gt; 0){
-    hp_counter -= 1
+if(global.hp_counter &gt; 0){
+    global.hp_counter -= 1
 }else{
   
 if(instance_exists(obj_player)) {
@@ -217,6 +230,32 @@ if(instance_exists(obj_player)) {
            friction = 0.2;
         }
    }}}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_wall">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>{
+    move_bounce_solid(true);
+    if(speed &gt;2) speed = speed/2;
+}
 </string>
           </argument>
         </arguments>
