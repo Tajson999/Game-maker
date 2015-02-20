@@ -416,15 +416,18 @@
     <object>objects\obj_boss_splash</object>
     <object>objects\obj_boss_jump</object>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\cutscene_1_entrence</timeline>
+  </timelines>
   <rooms name="rooms">
-    <room>rooms\rm_lvl1_1</room>
-    <room>rooms\rm_boss</room>
     <room>rooms\rm_main</room>
+    <room>rooms\rm_boss</room>
     <room>rooms\rm_surface_test</room>
     <rooms name="Levels">
       <room>rooms\rm_lvl1_2</room>
       <room>rooms\rm_lvl1_3</room>
       <room>rooms\rm_test</room>
+      <room>rooms\rm_lvl1_1</room>
     </rooms>
     <rooms name="Menu">
       <room>rooms\rm_gameover</room>

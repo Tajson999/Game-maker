@@ -65,7 +65,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>globalvar Attacking 
+            <string>cutscene = false
+globalvar Attacking 
 global.Attacking = false
 AttackRate = 8
 Direction = "Up"
@@ -219,6 +220,38 @@ global.hp_boss_time = 0
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>305</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_timeline_set</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>14</kind>
+            <timeline>cutscene_1_entrence</timeline>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="2" enumb="3">
       <action>
@@ -316,6 +349,8 @@ global.hp_boss_time = 0
           <argument>
             <kind>1</kind>
             <string>/// Movement
+if (cutscene = false)
+{
 if (Attacking = false)
     {
 /// Movement
@@ -356,6 +391,7 @@ if (Attacking = false)
         }
         
     }
+}
 }
 </string>
           </argument>
@@ -418,6 +454,8 @@ if (Attacking = false)
           <argument>
             <kind>1</kind>
             <string>///Attacking
+if (cutscene = false)
+{
 if (global.Attacking = false)
     {
         if (keyboard_check_pressed(vk_space)) {
@@ -452,7 +490,7 @@ if (global.Attacking = false)
             }
     }
 }
-
+}
 </string>
           </argument>
         </arguments>

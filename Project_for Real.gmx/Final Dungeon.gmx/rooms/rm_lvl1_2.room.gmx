@@ -239,7 +239,7 @@
     <instance objName="obj_wall" x="0" y="600" name="inst_922DCCD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="0" y="624" name="inst_7701E670" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="0" y="648" name="inst_DF8383E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_player" x="1792" y="720" name="inst_FB42AAEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="1792" y="792" name="inst_FB42AAEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1568" y="744" name="inst_EBF9090E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1568" y="720" name="inst_1716E9F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="2016" y="480" name="inst_B6D29233" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
