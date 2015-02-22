@@ -66,12 +66,22 @@
           <argument>
             <kind>1</kind>
             <string>cutscene = false
+
 globalvar Attacking 
 global.Attacking = false
+
 AttackRate = 8
+
 Direction = "Up"
+
 globalvar hp_boss_time
 global.hp_boss_time = 0
+
+globalvar enemy_cap
+global.enemy_cap = 0
+
+globalvar enemy_caped
+global.enemy_caped = 0
 </string>
           </argument>
         </arguments>

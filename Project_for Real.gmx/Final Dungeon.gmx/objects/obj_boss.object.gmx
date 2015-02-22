@@ -89,7 +89,6 @@ if(counter &gt; 0){
 var attack = irandom(3)
 attack = irandom(3)
 if(0 = attack){
-speed = 1
 
 //up
     instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
@@ -128,7 +127,6 @@ with(obj_boss_spear_right){
     }
   counter = 75
 }else if(1 = attack ){
-    speed = 1
     instance_create(obj_boss.x,obj_boss.y,obj_enemy)
     counter = 75
 }else if(2 = attack ){

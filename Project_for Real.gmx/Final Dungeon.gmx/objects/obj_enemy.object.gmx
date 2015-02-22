@@ -26,6 +26,14 @@
           <argument>
             <kind>1</kind>
             <string>Health = 100
+global.enemy_cap += 1
+
+
+if(enemy_caped = 1){
+    global.enemy_cap -= 1
+    instance_destroy()
+}
+
 </string>
           </argument>
         </arguments>
@@ -128,8 +136,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Health
+            <string>///Health and cap
 if (Health &lt;= 0) {
+    global.enemy_cap -= 1
     instance_destroy()
 }
 

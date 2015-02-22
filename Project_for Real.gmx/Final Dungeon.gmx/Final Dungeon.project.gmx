@@ -395,6 +395,7 @@
       <object>objects\obj_next2</object>
       <object>objects\obj_boss_hp</object>
       <object>objects\obj_boss_win</object>
+      <object>objects\obj_enemy_cap</object>
     </objects>
     <objects name="Buttons">
       <object>objects\obj_GAMEOVER</object>
@@ -428,8 +429,8 @@
     <timeline>timelines\cutscene_1_entrence</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\rm_main</room>
     <room>rooms\rm_boss</room>
+    <room>rooms\rm_main</room>
     <rooms name="Levels">
       <room>rooms\rm_lvl1_2</room>
       <room>rooms\rm_lvl1_3</room>
