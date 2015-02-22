@@ -283,8 +283,11 @@
     <sprites name="Player sprites">
       <sprite>sprites\spr_player</sprite>
       <sprite>sprites\spr_player_stand</sprite>
+      <sprite>sprites\spr_player_magic_stand</sprite>
       <sprite>sprites\spr_player_attack</sprite>
+      <sprite>sprites\spr_player_magic_attack</sprite>
       <sprite>sprites\spr_player_run</sprite>
+      <sprite>sprites\spr_player_magic</sprite>
       <sprites name="spr_attacking">
         <sprite>sprites\spr_player_attacking_up</sprite>
         <sprite>sprites\spr_player_attacking_down</sprite>
@@ -326,12 +329,15 @@
     <sprite>sprites\spr_lava</sprite>
     <sprite>sprites\spr_lvl1</sprite>
     <sprite>sprites\spr_fireball_boss</sprite>
+    <sprite>sprites\spr_fireball</sprite>
+    <sprite>sprites\sprite54</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tile_title</background>
     <background>background\tile_made</background>
     <background>background\tile_fullscreen</background>
     <background>background\tile_entrence</background>
+    <background>background\tile_exit</background>
     <background>background\tile_void</background>
   </backgrounds>
   <paths name="paths">
@@ -354,7 +360,7 @@
       <object>objects\obj_attackbox_down</object>
       <object>objects\obj_attackbox_up</object>
       <object>objects\obj_player</object>
-      <object>objects\obj_plyer_dummy</object>
+      <object>objects\obj_player_magic</object>
     </objects>
     <objects name="Weapons">
       <object>objects\obj_spear_thrown</object>
@@ -415,6 +421,8 @@
     <object>objects\obj_boss_fireball</object>
     <object>objects\obj_boss_splash</object>
     <object>objects\obj_boss_jump</object>
+    <object>objects\obj_fireball</object>
+    <object>objects\obj_player_stats</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\cutscene_1_entrence</timeline>
@@ -422,7 +430,6 @@
   <rooms name="rooms">
     <room>rooms\rm_main</room>
     <room>rooms\rm_boss</room>
-    <room>rooms\rm_surface_test</room>
     <rooms name="Levels">
       <room>rooms\rm_lvl1_2</room>
       <room>rooms\rm_lvl1_3</room>
