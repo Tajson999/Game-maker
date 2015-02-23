@@ -331,6 +331,7 @@
     <sprite>sprites\spr_fireball_boss</sprite>
     <sprite>sprites\spr_fireball</sprite>
     <sprite>sprites\sprite54</sprite>
+    <sprite>sprites\spr_button_hitbox</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tile_title</background>
@@ -339,6 +340,7 @@
     <background>background\tile_entrence</background>
     <background>background\tile_exit</background>
     <background>background\tile_void</background>
+    <background>background\Bck_title</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\Scenery</path>
@@ -424,13 +426,16 @@
     <object>objects\obj_boss_jump</object>
     <object>objects\obj_fireball</object>
     <object>objects\obj_player_stats</object>
+    <object>objects\obj_hitbox_play</object>
+    <object>objects\obj_options</object>
+    <object>objects\obj_quit</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\cutscene_1_entrence</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\rm_boss</room>
     <room>rooms\rm_main</room>
+    <room>rooms\rm_boss</room>
     <rooms name="Levels">
       <room>rooms\rm_lvl1_2</room>
       <room>rooms\rm_lvl1_3</room>
