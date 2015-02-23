@@ -93,7 +93,9 @@ if(0 = attack){
 //up
     instance_create(obj_boss.x,obj_boss.y,obj_boss_spear)
     instance_create(obj_boss.x+16,obj_boss.y,obj_boss_spear)
-    instance_create(obj_boss.x-16,obj_boss.y,obj_boss_spear)    
+    instance_create(obj_boss.x-16,obj_boss.y,obj_boss_spear)  
+    instance_create(obj_boss.x-32,obj_boss.y,obj_boss_spear)
+    instance_create(obj_boss.x+32,obj_boss.y,obj_boss_spear)  
 with(obj_boss_spear){
     direction = 90
     speed = 8
@@ -102,6 +104,8 @@ with(obj_boss_spear){
     instance_create(obj_boss.x+16,obj_boss.y,obj_boss_spear_down)
     instance_create(obj_boss.x-16,obj_boss.y,obj_boss_spear_down)  
     instance_create(obj_boss.x,obj_boss.y,obj_boss_spear_down)
+    instance_create(obj_boss.x+32,obj_boss.y,obj_boss_spear_down)
+    instance_create(obj_boss.x-32,obj_boss.y,obj_boss_spear_down)
 with(obj_boss_spear_down){
     direction = 270
     speed = 8
@@ -110,7 +114,9 @@ with(obj_boss_spear_down){
 //left
     instance_create(obj_boss.x,obj_boss.y+16,obj_boss_spear_left)
     instance_create(obj_boss.x,obj_boss.y-16,obj_boss_spear_left)  
-    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear_left)   
+    instance_create(obj_boss.x,obj_boss.y-32,obj_boss_spear_left)   
+    instance_create(obj_boss.x,obj_boss.y+32,obj_boss_spear_left)
+    instance_create(obj_boss.x,obj_boss.y,obj_boss_spear_left)
 with(obj_boss_spear_left){
     direction = 180
     speed = 8
@@ -120,6 +126,8 @@ with(obj_boss_spear_left){
     instance_create(obj_boss.x,obj_boss.y,obj_boss_spear_right)
     instance_create(obj_boss.x,obj_boss.y-16,obj_boss_spear_right)  
     instance_create(obj_boss.x,obj_boss.y+16,obj_boss_spear_right)
+    instance_create(obj_boss.x,obj_boss.y+32,obj_boss_spear_right)
+    instance_create(obj_boss.x,obj_boss.y-32,obj_boss_spear_right)
 with(obj_boss_spear_right){
     direction = 0
     speed = 8
