@@ -212,7 +212,7 @@ with(obj_boss_spear_right){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///health
+            <string>///health and move
 if(global.hp_boss_time = 0){
     global.hp_boss = 100
     global.hp_boss_time = 1
@@ -228,7 +228,7 @@ if(global.hp_counter &gt; 0){
 }else{
   
 if(instance_exists(obj_player)) {
-        if(distance_to_point(obj_player.x, obj_player.y) &lt;= 256 &amp;&amp; !collision_line(x,y,obj_player.x,obj_player.y,obj_wall,false,true)) {
+        if(distance_to_point(obj_player.x, obj_player.y)) &lt;= 800 {
             friction = 0;
             motion_add(point_direction(x,y,obj_player.x,obj_player.y),1);
             if(speed &gt;= 2) speed = 2;

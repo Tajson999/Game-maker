@@ -304,6 +304,7 @@
       <sprite>sprites\spr_enemy_2</sprite>
       <sprite>sprites\spr_boss</sprite>
       <sprite>sprites\spr_boss_jump</sprite>
+      <sprite>sprites\spr_boss_splash2</sprite>
       <sprite>sprites\spr_boss_splash</sprite>
       <sprite>sprites\spr_test</sprite>
     </sprites>
@@ -434,13 +435,13 @@
     <timeline>timelines\cutscene_1_entrence</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\rm_main</room>
     <room>rooms\rm_boss</room>
+    <room>rooms\rm_main</room>
     <rooms name="Levels">
       <room>rooms\rm_lvl1_2</room>
       <room>rooms\rm_lvl1_3</room>
-      <room>rooms\rm_test</room>
       <room>rooms\rm_lvl1_1</room>
+      <room>rooms\rm_test</room>
     </rooms>
     <rooms name="Menu">
       <room>rooms\rm_gameover</room>
