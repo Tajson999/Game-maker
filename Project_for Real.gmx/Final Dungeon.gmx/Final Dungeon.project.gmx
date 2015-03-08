@@ -345,6 +345,7 @@
     <background>background\tile_exit</background>
     <background>background\tile_void</background>
     <background>background\Bck_title</background>
+    <background>background\tile_dungeon</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\Scenery</path>
@@ -454,6 +455,7 @@
       <room>rooms\rm_lvl_selct</room>
       <room>rooms\rm_settings</room>
     </rooms>
+    <room>rooms\room9</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
