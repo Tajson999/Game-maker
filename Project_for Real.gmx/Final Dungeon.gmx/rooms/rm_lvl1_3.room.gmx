@@ -814,10 +814,15 @@
     <instance objName="obj_health_cmd" x="96" y="216" name="inst_3BD220BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_draw_keys" x="128" y="336" name="inst_30BC98C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_draw_bombs" x="96" y="288" name="inst_69236A17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="704" y="744" name="inst_F77E14DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="768" y="744" name="inst_B60879D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_next3" x="720" y="744" name="inst_E467C85B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tile_entrence" x="512" y="720" w="16" h="48" xo="0" yo="0" id="10002079" name="inst_0409B97C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tile_entrence" x="496" y="720" w="16" h="48" xo="16" yo="0" id="10002083" name="inst_1A8967F6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tile_entrence" x="736" y="720" w="16" h="48" xo="0" yo="0" id="10002087" name="inst_61ACE359" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tile_entrence" x="720" y="720" w="16" h="48" xo="16" yo="0" id="10002088" name="inst_97496DAF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

@@ -88,6 +88,7 @@
     <instance objName="obj_options" x="544" y="640" name="inst_E1EBD905" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_options" x="576" y="640" name="inst_0012E094" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_options" x="608" y="640" name="inst_B92A664B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_jukebox" x="32" y="0" name="inst_85724924" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
