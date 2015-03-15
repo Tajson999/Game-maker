@@ -442,8 +442,8 @@
     <timeline>timelines\cutscene_1_entrence</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\rm_boss</room>
     <room>rooms\rm_main</room>
+    <room>rooms\rm_boss</room>
     <rooms name="Levels">
       <room>rooms\rm_lvl1_2</room>
       <room>rooms\rm_lvl1_3</room>
