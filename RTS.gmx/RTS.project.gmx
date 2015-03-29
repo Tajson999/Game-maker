@@ -5,9 +5,25 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_factory</sprite>
+    <sprite>sprites\spr_factory_fake</sprite>
+    <sprite>sprites\spr_text_factory</sprite>
+    <sprite>sprites\spr_assult</sprite>
+    <sprite>sprites\spr_curser</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_factory</object>
+    <object>objects\obj_text_factory</object>
+    <object>objects\obj_assult</object>
+    <object>objects\obj_factory_fake</object>
+    <object>objects\obj_curser</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\Testing</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
