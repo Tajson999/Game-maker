@@ -11,6 +11,8 @@
     <sprite>sprites\spr_text_factory</sprite>
     <sprite>sprites\spr_assult</sprite>
     <sprite>sprites\spr_curser</sprite>
+    <sprite>sprites\sprite5</sprite>
+    <sprite>sprites\spr_assult_text</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -20,6 +22,7 @@
     <object>objects\obj_assult</object>
     <object>objects\obj_factory_fake</object>
     <object>objects\obj_curser</object>
+    <object>objects\obj_assault_text</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Testing</room>
